@@ -3,6 +3,8 @@ import { cookies } from "next/headers";
 
 import Image from "next/image";
 
+export const runtime = 'edge';
+
 // 设置title
 export const metadata: Metadata = {
   title: "🐻‍❄️ dapp",
